@@ -2,4 +2,4 @@
 FROM nginx
 
 # Copy the HTML file to the Nginx default directory
-ADD . /usr/share/nginx/html
+ADD . /var/www/html
