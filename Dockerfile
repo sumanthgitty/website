@@ -1,6 +1,6 @@
 
 # Use the base Nginx image from Docker Hub
-FROM nginx
+FROM nginx:alpine
 
 # Copy the HTML file to the Nginx default directory
-COPY index.html /var/www/html/
+COPY . /usr/share/nginx/html
